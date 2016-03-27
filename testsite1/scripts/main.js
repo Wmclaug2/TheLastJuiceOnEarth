@@ -31,3 +31,9 @@ myButton.onclick = function(){
 	setUserName();
 }
 
+// var inputText = document.querySelector('text');
+// inputText.onclick = function(){
+// 	inputText = prompt("test");
+// 	inputText.textValue = '';
+// }
+

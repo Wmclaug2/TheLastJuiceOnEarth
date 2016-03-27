@@ -4,39 +4,70 @@
 	text-align: center;
 }
 
-h1{
+#upper{
+
+}
+#top{
+	background-color: black;
+	padding: 0px 0px 20px 0px;
+	margin: 0 auto;
+	color: white;
+}
+#top:hover{
+	background-color:pink;
+}
+
+#top h1{
 	font-size: 60px;
-	text-shadow:3px 3px 1px white;
+	text-shadow:3px 3px 1px gray;
 }
 
-h3{
+#top h3{
 	font-size: 25px;
-}
-h4{
-	font-size: 15px;
 
 }
+#top h5{
+	color:white;
+}
+
 h5{
 	font-size: 18px;
 	margin: 0 auto;
 	text-align: center;
 }
 
-ul{
+#nav{
+	background:gray;
+	display: block;
+	text-align: center;
+	margin: -10px 0px 10px 0px;
+	border-top: 1px solid white;
+	border-bottom: 1px solid white;
+	padding-top: 0px;
+}
+#nav li{
 	font-size: 13px;
 	line-height: 2;
-	letter-spacing: 1px;	
+	letter-spacing: 2px;	
+	display: inline;
+	padding: 0px 30px;
+	margin: 0 auto;
+	text-align: center;
+	border: 1px solid black;
+	border-top: 0px;
+	border-bottom: 0px;
+}
+#nav li:hover{
+	background-color:pink;
 }
 
 html{
 	background-color: black;
 	font-size: 10px;
 	font-family: 'Open Sans', sans-serif;
-	color: black;
 }
 
 body{
-	padding:0px 20px 20px 20px;
 	background-color:#CCC;
 	border: 1px solid white;
 }
@@ -48,16 +79,75 @@ p{
 	letter-spacing: 1px;
 	line-height: 2;
 }
-
+p:first-letter{
+	font-size:20px;
+}
+p:before{
+	content:open-quote;
+}
+p:after{
+	content: close-quote;
+}
 img{
 	display: block;
-	border: 1px solid white;
+	border: 3px solid black;
 	margin: 0 auto;
 	width: 500px;
 	height:300px;
+	margin-top:20px;
 }
 
-.nav {
+
+
+
+a:link{
+	color:blue;
+}
+a:visited{
+	color:green;
+}
+
+#benefits{
+	text-align: center;
+	margin: 0 auto;
+	list-style-position: inside;
+}
+#benefits h4{
+	font-size: 20px;
+}
+
+#benefits li{
 	font-size: 15px;
+}
+/*#blocker1{
+	width:2000px;
+	height:100px;
+	color:gray
+	border: 2px dotted white;
+}*/
+#bottom {
+	display: inline
+	margin: 50px 10px 20px 10px
+}
+#bottom button{
+	text-align: left;
+}
+
+#bottom a{
+	text-align: right;
+}
+#subscription{
+	display: block;
+	text-align: center;
+}
+#subscription input{
+	padding: 4px;
+	margin:4px;
+}
+
+#feedback {
+	text-align: center;
+	margin:0 auto;
+	padding: 10px 10px 10px 10px;
 }
 

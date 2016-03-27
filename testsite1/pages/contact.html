@@ -1,0 +1,80 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>The Last Juice On Earth</title>
+	<link href = '../styles/style.css' rel = 'stylesheet' type = 'text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+
+</head>
+<body>
+	<div id = 'upper'><div id = 'top'>
+	<h1 class = 'header'>The Last Juice On Earth</h1>
+	<h3 class = 'header-description'>Premium, Handcrafted eJuice</h3>
+	<h5></h5>
+	</div>
+
+	
+	<div id= 'nav'>
+		<ol>
+			<li><a href = '../index.html'>Home</a></li>
+			<li><a href = 'pages/products'>Products</a></li>
+			<li><a href = 'pages/about us'>About Us</a>
+			<li><a href = 'pages/contact.html'>Contact Us</a></li>
+		</ol>
+	</div>
+</div>
+<div id = 'subscription'></br>
+	<h3>Would you like to receive news and offers from the Last Juice On Earth?</h3>
+	<form action='X' method='POST' name = 'subscribe'>
+	<fieldset>
+		<legend>Subscribe?</legend>
+		<input type = 'text' onblur="if (this.value=='') this.value=this.defaultValue" onclick="if (this.defaultValue==this.value) this.value=''" name = 'name' value = 'Name'></br>
+		<input type = 'text' onblur="if (this.value=='') this.value=this.defaultValue" onclick="if (this.defaultValue==this.value) this.value=''" name = 'email' value = 'Email Address' ></br>
+		<input type = 'text' onblur="if (this.value=='') this.value=this.defaultValue" onclick="if (this.defaultValue==this.value) this.value=''" name = 'phone' value = 'Phone Number'></br>
+		<input type = 'radio' name = 'subtype' value = 'Offers'>Offers
+		<input type = 'radio' name = 'subtype' value = 'news'>News
+		<input type = 'radio' name = 'subtype'>Both</br></br>
+	
+	I agree to receive emails from TheLastJuiceOnEarth@gmail.com?</br>
+	<input type = 'checkbox' name = 'agree'></br></br>
+
+
+	<input type = 'submit' value = 'Subscribe!'>
+	</form></div>
+	</fieldset>
+<div id = 'feedback'>
+	<h3>Questions or concerns? Let us know!</h3>
+	<form></br>
+		<fieldset>
+			<legend>Feedback</legend>
+		 </br>
+		
+		<input type = 'text' onblur="if (this.value=='') this.value=this.defaultValue" onclick="if (this.defaultValue==this.value) this.value=''" name = 'email2' value ='Email Address'></br></br>
+		<label for ='continent'>Choose your continent: </label> <br><br>
+		<select id = 'continent'>
+			<optgroup label ='Americas'>
+				<option>North America</option>
+				<option>South America</option>
+			</optgroup>
+			<optgroup label ='Eurasia'>
+				<option>Europe</option>
+				<option>Asia</option>
+			</optgroup>
+			<option>Australia</option>
+			<option>Antarctica</option>
+			<option>Africa</option>
+		</select>
+		</br></br>	
+		<textarea rows =10 cols = 30></textarea></br>
+		<input type ='submit' value = 'Send Feedback'>
+		</form>
+		</fieldset>
+
+</div>	
+<div id='bottom'>
+	<button>Change User</button></br></br>
+	<a href= 'http://www.wesmclaughlin.com'>Personal Site</a>
+</div>
+<script src='../scripts/main.js'></script>
+</body>
+</html>
